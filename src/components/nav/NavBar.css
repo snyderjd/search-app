@@ -1,0 +1,8 @@
+.navbar {
+  background-color: green;
+  font-size: 1.2em;
+}
+
+.nav-item :hover {
+  background-color: lightgreen;
+}

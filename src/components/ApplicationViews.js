@@ -1,5 +1,7 @@
 import { Route } from 'react-router-dom';
 import React, { Component } from 'react';
+import VideoSearch from './video/VideoSearch';
+import WebSearch from './web/WebSearch';
 
 class ApplicationViews extends Component {
 
@@ -7,11 +9,11 @@ class ApplicationViews extends Component {
         return (
             <React.Fragment>
 
-                <Route exact path="video" render={(props) => {
+                <Route exact path="/video" render={(props) => {
                     return <VideoSearch {...props} />
                 }} />
 
-                <Route exact path="web" render={(props) => {
+                <Route exact path="/web" render={(props) => {
                     return <WebSearch {...props} />
                 }} />
 

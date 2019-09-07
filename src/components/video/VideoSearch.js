@@ -1,4 +1,5 @@
 import React , { Component } from 'react';
+import VideoSearchForm from './VideoSearchForm';
 
 class VideoSearch extends Component {
 
@@ -6,6 +7,7 @@ class VideoSearch extends Component {
         return (
             <React.Fragment>
                 <h1>VideoSearch Component</h1>
+                <VideoSearchForm />
             </React.Fragment>
         )
     }
