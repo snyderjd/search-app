@@ -1,1 +1,23 @@
 /* Styling for Video Components */
+
+.searchContainer {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.searchInput {
+    width: 60%;
+    margin: 5px;
+}
+
+.resultItem {
+    width: 60%;
+    margin: auto;
+    border: 2px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
